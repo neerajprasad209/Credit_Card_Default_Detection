@@ -35,9 +35,9 @@ class ModelTrainer:
             )
             
             models = {
-                "rfc" : RandomForestClassifier(random_state=21,n_estimators=40),
-                "dtc" : DecisionTreeClassifier(random_state=21,criterion="entropy"),
-                "lr" : LogisticRegression()
+                "Random Forest Classifier" : RandomForestClassifier(random_state=21,n_estimators=40),
+                "Decision Tree Classifer" : DecisionTreeClassifier(random_state=21,criterion="entropy"),
+                "Logistic Regression" : LogisticRegression()
             }
             
             model_report : dict= evaluate_model(X_train,y_train, X_test,y_test,models)
