@@ -55,7 +55,15 @@ def predict_datapoint():
         
         result = round(pred[0],2)
         
-        return render_template('form.html',final_result=result)
+        if pred[0] == 1.0:
+            result = 'Client Will Default'
+            return render_template('default_result.html',final_result=result)
+        else:
+            result = 'Client Will Not Default'
+            return render_template('not_default.html',final_result=result)
+            
+        
+        #return render_template('form.html',final_result=result)
     
     
 
