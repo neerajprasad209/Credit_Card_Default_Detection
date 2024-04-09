@@ -31,6 +31,7 @@ Create a new environment of project
 ```
 conda create -p venv python==3.8 -y
 
+```
 ## Technologies Used :
 - Numpy
 - Pandas
