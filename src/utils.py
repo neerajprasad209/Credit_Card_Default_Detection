@@ -59,7 +59,7 @@ def load_object(file_path):
     
 def export_collection_as_dataframe(db_name, collection_name):
     try:
-        mongo_client = pymongo.MongoClient("mongodb+srv://neerajprasad209:neerajprasad209@neerajprasad209.p3s6l5t.mongodb.net/?retryWrites=true&w=majority")
+        mongo_client = pymongo.MongoClient("mongodb+srv://neerajprasad209:<Username><Password>.p3s6l5t.mongodb.net/?retryWrites=true&w=majority")
         collection = mongo_client[db_name][collection_name]
         
         # Print debug indormation
