@@ -1,12 +1,7 @@
 pandas
 numpy
-seaborn
 flask
 scikit-learn
-pymongo
 xgboost
-matplotlib
-scikit-learn
-ipywidgets
 gunicorn
 #-e .
