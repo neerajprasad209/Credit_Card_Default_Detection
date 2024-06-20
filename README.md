@@ -44,4 +44,6 @@ conda create -p venv python==3.8 -y
 - HTML
 - AWS
 
+# Repo URI - 891377092262.dkr.ecr.us-east-1.amazonaws.com/mlproj
+
 
